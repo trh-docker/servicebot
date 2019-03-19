@@ -10,4 +10,4 @@ RUN git clone https://github.com/service-bot/servicebot.git . &&\
     apt-get autoclean && apt-get autoremove &&\
     rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
 
-CMD [ "npm", "run-script", "start" ]
+CMD [ "npm", "run-script", "start" ]`
