@@ -2,7 +2,7 @@ FROM quay.io/spivegin/nodejsyarn
 
 # https://github.com/service-bot/servicebot.git
 
-WORKDIR /opt/tlm/
+WORKDIR /usr/src/app
 
 RUN git clone https://github.com/service-bot/servicebot.git . &&\
     git checkout tags/v0.11.99 &&\
